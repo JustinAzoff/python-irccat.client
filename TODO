@@ -1,0 +1,8 @@
+Something like this should be possible too:
+
+    irccat(msg, host, port, channel="#foo", users=["alice", "bob"])
+
+or
+
+    c = ...Client(host, port, channels=["#foo", "#bar"], users="bob")
+    c.send(msg)
